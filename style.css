@@ -1,0 +1,89 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    
+    body {
+    margin: 0;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: #ffffff;
+    background-image: linear-gradient(to right, blue, darkblue);
+}
+
+.search {
+    background-color: aqua;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+}
+img {
+    max-width: 100px;
+}
+input {
+    width: 90%;
+    height: 40px;
+    font-size: 30px;
+    margin: 0 0 5px 0;
+}
+form{
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+#right-section{
+    float: right;
+    width: 75%
+}
+#weather-current-quick-view{
+    border: 1px solid #000000;
+    width: 100%;
+}
+#five-day-forecast-header{
+    width: 100%;
+}
+#five-day-forecast-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search-section-header {
+    font-weight: bold;
+    font-size: xx-large;
+}
+#search-button {
+    width: 90%;
+    height: 40px;
+}
+.sunny-conditions-theme{
+    background-color: cornflowerblue;
+    color: black;
+    margin: 0 16px 0 0;
+    padding: 0 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.cloudy-conditions-theme{
+    background-color: darkgray;
+    color: white;
+    margin: 0 16px 0 0;
+    padding: 0 20px;
+    border-radius: 10px;
+    width: 20%;
+}
+.raining-conditions-theme{
+    background-color: darkslategrey;
+    color: white;
+    margin: 0 16px 0 0;
+    padding: 0 20px;
+    border-radius: 10px;
+    width:20%;
+}
