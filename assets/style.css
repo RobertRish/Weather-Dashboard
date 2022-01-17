@@ -2,10 +2,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
     
-    
-    body {
-    margin: 0;
-}
 header {
     display: inline-block;
     width: 100%;
@@ -35,7 +31,7 @@ input {
     font-size: 30px;
     margin: 0 0 5px 0;
 }
-form{
+form {
     border-bottom: 2px solid black;
     padding-bottom: 10px;
 }
@@ -55,35 +51,3 @@ form{
     justify-content: space-evenly;
 }
 
-#search-section-header {
-    font-weight: bold;
-    font-size: xx-large;
-}
-#search-button {
-    width: 90%;
-    height: 40px;
-}
-.sunny-conditions-theme{
-    background-color: cornflowerblue;
-    color: black;
-    margin: 0 16px 0 0;
-    padding: 0 20px;
-    border-radius: 10px;
-    width: 20%;
-}
-.cloudy-conditions-theme{
-    background-color: darkgray;
-    color: white;
-    margin: 0 16px 0 0;
-    padding: 0 20px;
-    border-radius: 10px;
-    width: 20%;
-}
-.raining-conditions-theme{
-    background-color: darkslategrey;
-    color: white;
-    margin: 0 16px 0 0;
-    padding: 0 20px;
-    border-radius: 10px;
-    width:20%;
-}
